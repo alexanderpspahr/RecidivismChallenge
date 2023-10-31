@@ -27,8 +27,16 @@ Successfully predict which prisoners will recidivate and which will not
 
 ![RedFlags](assets/featureimportances.PNG)
 
-This is common knowledge in the used car industry, but it is a very important factor in determining the price of a used car. Our model considered this the tenth most important feature, but it is important to note that almost all of the features above it pertained to the manufacturer and the fuel type of a car. Indicating that when adjusted for manufacturer and fuel type, the year of the car is one of the absolute best indicators of whether or not a car will sell for a high price.
+These are the most important features for the model which performed the best. As we can see, a bunch of typical ones show up such as violent sex crimes, various violations, supervision risk, and gang affiliation, but in addition to those is a very important and notable one that not many people may know. It seems that unemployment and not being able to hold down a job are some of the most important factors as well. Additionally, the Adaboost model we ran only used the percent-days-employed feature, and still scored around a .22 brier loss score, which is very close to the final model. In other words, just employment trends alone can be very helpful for predicting recidivism.
 
+Logically, this makes sense, as those who cannot hold down a job are either too antisocial to do so, or have to resort to crime because they can't hold down a job, possibly both.
+
+### Insight 2: Model is actionable at high confidence intervals
+
+![highconf](assets/confidencehigh.PNG)
+![lowconf](assets/confidencelow.PNG)
+
+The above graphs show that when the model estimates a 90% or higher chance of recidivism, there is a 96% chance of recidivism, and when the model estimates a 85% chance of non-recidivism or higher, there is a 93% chance of no recidivism. These numbers are quite good, and show a lot of potential for applications of this model, or any model that slightly improves upon it.
 
 ## Final Notable Findings and Conclusions
 
