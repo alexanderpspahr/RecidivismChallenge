@@ -5,7 +5,7 @@ Based on [this challenge](https://nij.ojp.gov/funding/recidivism-forecasting-cha
 [Here](ModellingAndAnalysis.ipynb) is the in depth analysis and conclusions including source code for all models used and the entire process.
 
 ### Data
-Data on recidivism from NIJ. [Here](data/vehicles.csv](https://nij.ojp.gov/funding/recidivism-forecasting-challenge.
+Data on recidivism from NIJ. [Here](data/vehicles.csv](https://nij.ojp.gov/funding/recidivism-forecasting-challenge).
 
 ### Methodology
 1. Data - removed all empty values and nonsensical values. Scaled data pre-analysis as necessary.
