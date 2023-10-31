@@ -23,9 +23,9 @@ Successfully predict which prisoners will recidivate and which will not
 
 # Insights
 
-### Insight 1: Used cars depreciate in value
+### Insight 1: Stereotypical red flags are real, but job trends are actually the most important
 
-![PriceByYear](https://github.com/alexanderpspahr/UsedCarsPriceAnalysis/assets/129889030/4fc38bad-a75e-4f8f-b20a-c1705f78e996)
+![RedFlags](assets/featureimportances.PNG)
 
 This is common knowledge in the used car industry, but it is a very important factor in determining the price of a used car. Our model considered this the tenth most important feature, but it is important to note that almost all of the features above it pertained to the manufacturer and the fuel type of a car. Indicating that when adjusted for manufacturer and fuel type, the year of the car is one of the absolute best indicators of whether or not a car will sell for a high price.
 
