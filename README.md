@@ -1,11 +1,11 @@
 # RecidivismChallenge
 
-What drives the price of used cars? After running multiple models we can draw some conclusions about what factors most affect the price at which a used car will sell.
+Based on [this challenge](https://nij.ojp.gov/funding/recidivism-forecasting-challenge), attempt to predict prisoner recidivism using classification models.
 
 [Here](ModellingAndAnalysis.ipynb) is the in depth analysis and conclusions including source code for all models used and the entire process.
 
 ### Data
-Data on used cars sourced from Kaggle. [Here](data/vehicles.csv)
+Data on recidivism from NIJ. [Here](data/vehicles.csv](https://nij.ojp.gov/funding/recidivism-forecasting-challenge.
 
 ### Methodology
 1. Data - removed all empty values and nonsensical values. Scaled data pre-analysis as necessary.
